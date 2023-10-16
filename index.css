@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mooli&family=Raleway:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+}
+html {
+  background-color: #f7f6ee;
+}
+.navbar {
+  background: #f7f6ee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 15vh;
+}
+.navbar .logo a {
+  text-transform: uppercase;
+  /* background: red; */
+  color: #575151;
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.navbar .logo a span {
+  font-weight: bold;
+  color: #000000;
+}
+
+.list a {
+  color: #000000;
+  gap: 50px;
+  margin: 20px;
+  text-decoration: none;
+}
+.navbar .list a:hover {
+  text-decoration: underline;
+}
+
+/* main */
+.main {
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0 0 20%;
+}
+.main h1 {
+  font-size: 3.5vw;
+  width: 45vw;
+  font-weight: 400;
+  line-height: 1.2;
+  /* display: block;  */
+}
+.main p {
+  color: #575151;
+  width: 40vw;
+  margin-top: 1.3em;
+  font-size: 1.4vw;
+  line-height: 1.6;
+}
+.button button {
+  margin-top: 1.6rem;
+  /* display: inline-block; */
+  padding: 0.9rem 3rem;
+  font-size: 1.2rem;
+  color: #000;
+  background: #575151;
+  background: #f7f6ee;
+  cursor: pointer;
+  border: 1px solid #000;
+  border: 1px dashed #000;
+  border-radius: 6px;
+  letter-spacing: 0.1rem;
+  /* box-shadow: 5px 5px #575151; */
+}
+.button button:hover {
+  background: #f7f6ee;
+  box-shadow: 5px 5px #575151;
+  letter-spacing: 0.2rem;
+}
+
+.image-1 {
+  /* border: 1px solid red; */
+  margin-top: 1.5rem;
+}
+.image-1 img {
+  /* margin-top: 50px; */
+  width: 100%;
+}
+
+.image-2 {
+  display: flex;
+  margin-top: 1.5rem;
+  /* border: 1px solid red; */
+}
+.image-2 img {
+  width: 50%;
+}
+.content {
+  /* border: 1px solid red; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 5% 10% 5% 2%;
+}
+.content h2 {
+  width: 30vw;
+  text-align: start;
+  font-size: 3vw;
+  font-weight: lighter;
+  color: #232323;
+}
+.content p {
+  text-align: start;
+  color: #575151;
+  width: 30vw;
+  margin-top: 1.3em;
+  font-size: 1.2vw;
+  line-height: 1.6;
+}
+
+.img-3 img {
+  width: 40%;
+  height: 40%;
+}
+.img-4 {
+  position: relative;
+}
+.img-4 img {
+  width: 100%;
+  padding: 6.5rem;
+  overflow: clip;
+  overflow: hidden;
+}
+
+.btn-1 {
+  font-family: Montserrat, sans-serif;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  display: inline-block;
+  font-size: 2vw;
+  /* font-weight: 300; */
+  /* line-height: 0.5; */
+  color: #fff;
+  background-color: #232323;
+  border-radius: 60px;
+  cursor: pointer;
+}
+.btn--play {
+  font: inherit;
+  background-color: #fff;
+  color: #232323;
+  /* font-weight:200; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -80px;
+  margin-top: -23px;
+  padding: 0.7em 1.5em;
+}
+.btn--play:hover {
+  background-color: #232323;
+  color: #fff;
+}
+
+.img-5 img {
+  width: 100%;
+  height: 95vh;
+  overflow: hidden;
+  padding: 0 6em;
+  margin-top: -2rem;
+}
+
+/* footer */
+.footer {
+  height: 50vh;
+  background: #f7f6ee;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer h3 {
+  /* text-transform: uppercase; */
+  font-size: 1.5vw;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  color: #232323;
+}
+.footer .snapsound span {
+  color: #000000;
+}
+.footer .snapsound h3 {
+  color: #575151;
+}
+.footer .snapsound p {
+  text-align: start;
+  font: inherit;
+  color: #575151;
+  width: 25vw;
+  margin-top: 1em;
+  font-size: 1vw;
+  line-height: 1.4;
+}
+.footer .discover a {
+  color: #575151;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  /* padding: 1px; */
+  line-height: 1.3;
+}
+.footer .discover a:hover{
+  text-decoration: underline;
+}
+.footer .contact p {
+  color: #575151;
+  line-height: 2;
+}
+
+.footer .contact h3{
+  margin-bottom: 1.2em;
+}
